@@ -1,0 +1,102 @@
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    width: 900px;
+}
+#columnas{
+    width: 15%;
+}
+#filas{
+    height: 50px;
+}
+/*odd para impares, even para pares */
+#titulo{
+    background-color: rgb(232, 218, 25);
+}
+
+#info{
+    background-color: rgb(233, 189, 131);
+}
+#lm{
+    background-color:rgba(205, 92, 92, 0.784);
+    
+}
+#lm::before{
+    content: "Lenguajes de Marcas";
+}
+#lm:hover::before{
+    content: "Xavi Blanes";
+    padding: inherit;
+}
+#pro{
+    background-color: rgba(136, 136, 254, 0.788);
+}
+#pro::before{
+    content: "Programación";
+}
+#pro:hover::before{
+    content: "Josép";
+}
+#si{
+    background-color: rgba(140, 255, 122, 0.69);
+}
+#si::before{
+    content: "Sistemas Informáticos";
+}
+#si:hover::before{
+    content: "Davinia";
+}
+#bd{
+    background-color: rgba(128, 128, 128, 0.533);
+}
+#bd::before{
+    content: "Base de Datos";
+}
+#bd:hover::before{
+    content: "Codina";
+}
+#ing{
+    background-color: rgb(238, 130, 184);
+}
+#ing::before{
+    content: "Inglés";
+}
+#ing:hover::before{
+    content: "Mónica";
+}
+#fol{
+    background-color: rgb(125, 180, 235);
+}
+#fol::before{
+    content: "FOL";
+}
+#fol:hover::before{
+    content: "Xelo";
+}
+#ed{
+    background-color: rgba(89, 157, 89, 0.749);
+}
+#ed::before{
+    content: "Entornos de Desarrollo";
+}
+#ed:hover::before{
+    content: "David";
+}
+td{
+    text-align: center;
+}
+#horari{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
